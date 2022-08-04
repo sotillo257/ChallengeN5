@@ -55,16 +55,6 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\N5.Core\N5.Core.csproj">
-      <Project>{5c585339-d0bc-499f-8b33-762812aed120}</Project>
-      <Name>N5.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\N5.Repository\N5.Repository.csproj">
-      <Project>{e162bafb-9043-4000-b7a5-3a7353aa0436}</Project>
-      <Name>N5.Repository</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

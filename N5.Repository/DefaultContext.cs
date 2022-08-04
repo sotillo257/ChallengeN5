@@ -18,6 +18,8 @@ namespace N5.Repository
         {
             base.OnModelCreating(modelBuilder);
             ConfigureMapping(modelBuilder);
+
+            DataBase.Seed(modelBuilder);
         }
 
         private static void ConfigureMapping(ModelBuilder modelBuilder)
